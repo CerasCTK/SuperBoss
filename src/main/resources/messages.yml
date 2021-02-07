@@ -1,0 +1,7 @@
+messages:
+  defeatedGlobal:
+    - "%top1% - %damage%"
+    - "%top2% - %damage%"
+    - "%top3% - %damage%"
+  defeatedPlayer:
+    - "%boss has been killed!"

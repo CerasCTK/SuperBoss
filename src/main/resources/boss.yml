@@ -1,0 +1,98 @@
+bosses:
+  spiderBoss:
+    type: SPIDER
+    name: "&6&lSpider Boss"
+    health: 500
+    # Determines how long the boss will be alive for if not hit.
+    aliveTimeout: 60000
+    # How much damage should be done on boss spawn.
+    spawnDamage: 20
+    skill: NONE
+    speed: 2
+    equipment:
+      helmet: AIR
+      chestPlate: AIR
+      leggings: AIR
+      boots: AIR
+      leftHand: AIR
+      rightHand: AIR
+    spawnMessage:
+      - "I have spawned! Fear me!"
+    spawnItem:
+      type: CAVE_SPIDER_SPAWN_EGG
+      name: "&eSpawn &6&lSpider Boss"
+      lore:
+        - "&7&l> &7Right click to spawn the &6&lSpider Boss!"
+        - ""
+        - "&4&lDIFFICULTY RED"
+    messages:
+      - "You bit me!"
+      - "Ouch!"
+    prizes:
+      top1:
+        command:
+          - "give %player% diamond 32"
+        messagePlayer:
+          - ""
+          - ""
+      top2:
+        command:
+          - "give %player% diamond 16"
+        messagePlayer:
+          - ""
+          - ""
+      top3:
+        command:
+          - "give %player% diamond 8"
+        messagePlayer:
+          - ""
+          - ""
+
+  zombieBoss:
+    type: ZOMBIE
+    name: "&6&lZOMBIE Boss"
+    health: 500
+    # Determines how long the boss will be alive for if not hit.
+    aliveTimeout: 600000
+    # How much damage should be done on boss spawn.
+    spawnDamage: 40
+    skill: NONE
+    speed: 1
+    equipment:
+      helmet: DIAMOND_HELMET
+      chestPlate: DIAMOND_CHESTPLATE
+      leggings: DIAMOND_LEGGINGS
+      boots: DIAMOND_BOOTS
+      leftHand: DIAMOND_SWORD
+      rightHand: DIAMOND_SWORD
+    spawnMessage:
+      - "I have spawned! Fear me!"
+    spawnItem:
+      type: CAVE_SPIDER_SPAWN_EGG
+      name: "&eSpawn &6&lZombie Boss"
+      lore:
+        - "&7&l> &7Right click to spawn the &6&lZombie Boss!"
+        - ""
+        - "&4&lDIFFICULTY RED"
+    messages:
+      - "&6&lI will not go down!"
+      - "Ouch!"
+    prizes:
+      top1:
+        command:
+          - "give %player% diamond 32"
+        messagePlayer:
+          - ""
+          - ""
+      top2:
+        command:
+          - "give %player% diamond 16"
+        messagePlayer:
+          - ""
+          - ""
+      top3:
+        command:
+          - "give %player% diamond 8"
+        messagePlayer:
+          - ""
+          - ""

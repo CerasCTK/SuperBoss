@@ -1,0 +1,8 @@
+name: SuperBoss
+version: ${project.version}
+main: net.ceras.superboss.SuperBoss
+api-version: 1.16
+authors: [ Ceras ]
+description: Super Boss for your server
+commands:
+  boss:

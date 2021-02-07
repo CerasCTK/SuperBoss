@@ -1,0 +1,27 @@
+settings:
+  # x, y, z
+  talkRange: 100, 50, 100
+  spawnBlock:
+    type: GLASS
+    name: "&6&lBOSS SPAWN BLOCK"
+    lore:
+      - "&7You need this block to spawn the boss!"
+
+gui:
+  title: "&6CERAS BOSS MENU"
+  size: 9
+  items:
+    bossTracker:
+      name: "&6&lBOSS TRACKER"
+      title: "&6&lBOSS TRACKER"
+      slot: 1
+      item: STONE
+      lore:
+        - "&6This is a lore."
+    bossItems:
+      name: "&6&lBOSS ITEMS"
+      title: "&6&lBOSS ITEMS"
+      slot: 0
+      item: STONE
+      lore:
+        - "&6This is a lore."
